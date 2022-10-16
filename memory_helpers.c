@@ -32,7 +32,6 @@ unsigned int _memcpy(buffer_t *output, const char *src, unsigned int n)
 		else
 			(output->buffer)++;
 	}
-
 	return (n);
 }
 
